@@ -1,0 +1,56 @@
+.box1{
+	width: 30;
+	height: 40%;
+	background-color: white;
+	border-right:15px solid black;
+	border-bottom: 15px solid black;
+	position: absolute; top: 0%; left: 0%;
+}
+
+.box2{
+    width: 30;
+	height: 40%;
+	background-color: white;
+	border-right:15px solid black;
+	border-bottom: 15px solid black;
+	position: absolute; top: 40%; left: 0%;
+}
+
+.box3{
+	width: calc(100% - 30);
+	height: 80%;
+	background-color: red;
+	border-bottom: 15px solid black;
+	position: absolute; top: 0%; right: 0%;
+}
+
+.box4{
+	width: 30;
+	height: calc(100% - 80%);
+	background-color: blue;
+	border-right: 15px solid black;
+	position: absolute; bottom: 0%; left: 0%;
+}
+
+.box5{
+	width: 60%;
+	height: calc(100% - 80%);
+	background-color: white;
+	border-right: 15px solid black;
+	position: absolute; bottom: 0%; left: 25%;
+}
+
+.box6{
+	width: 15%;
+	height: 10%;
+	background-color: white;
+    border-bottom: 15px solid black;
+    position: absolute; bottom: 10%; right: 0%;
+}
+
+.box7{
+	width: 15%;
+	height: 10%;
+	background-color: yellow;
+    position: absolute; bottom: 0%; right: 0%;
+}
